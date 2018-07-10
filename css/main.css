@@ -1,0 +1,381 @@
+/*General --------------------------------------------------------------*/
+#page-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#page-wrap-projects{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro-padding {
+  padding-top: 200px;
+}
+
+.inner-padding {
+  padding: 25px;
+}
+
+.prof-size {
+  width: 100%;
+  height: auto;
+}
+
+
+/*Fonts --------------------------------------------------------------*/
+.body {
+ font-family: 'Work Sans', sans-serif;
+ font-weight: 200;
+ font-size: 14px;
+ line-height:30px;
+}
+
+.resp {
+  font-family: "Work Sans", sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 20px;
+  color: #f28480;
+  top: -5px
+}
+
+.header {
+ font-family: 'Work Sans', sans-serif;
+ font-size: 24px;
+ line-height: 70px;
+ font-weight: 900;
+}
+
+.primary {
+ font-family: 'Work Sans', sans-serif;
+ font-weight: 700;
+ font-size: 15px;
+ line-height:30px;
+ color: #333;
+}
+
+.secondary {
+ font-family: 'Work Sans', sans-serif;
+ font-weight: 300;
+ font-size: 13px;
+ line-height:26px;
+ color: #999;
+}
+
+.caption {
+ font-size: 12px;
+ font-style: italic;
+ text-align: center;
+ font-family: "Work Sans", sans-serif
+}
+
+.italic {
+ font-style: italic
+}
+
+.text-center {
+ text-align: center;
+}
+
+.fixed {
+ position: fixed;
+ font-size: 36px!important;
+ z-index: 100;
+ padding-top: 20px;
+ padding-left: 20px;
+}
+
+.fixed:hover {
+ color: #ed6564!important;
+}
+
+.fa {
+ color: #999;
+}
+
+.underline {
+border-bottom: 1px solid #ed6564;
+padding-bottom: 2px;
+}
+
+a.underline:hover {
+color: #ed6564!important;
+}
+
+a {
+text-decoration:none !important;
+color: inherit !important;
+-webkit-transition: color 0.5s;
+ transition: color 0.5s;
+}
+
+a:hover {
+color: #f2bfbd;
+}
+
+a.highlight {
+position:relative;
+text-decoration: none;
+ color: #333;
+}
+
+.highlight:before{
+width:100%;
+height:10px;
+position:absolute;
+left:0px;
+bottom:-4px;
+content:"";
+display:block;
+background-color: #f2bfbd;
+z-index:-1;
+opacity: 1;
+-webkit-transition: height 0.5s;
+ transition: height 0.5s;
+}
+
+a.highlight:hover{
+color: inherit !important;
+}
+
+a.highlight:hover:before {
+color: #90949C;
+background-color: #f2bfbd;
+ height:25px;
+}
+
+a:visited {
+ color: inherit!important;
+}
+
+/*Padding --------------------------------------------------------------*/
+.pad-xs {
+margin-bottom: 15px;
+}
+
+.pad-top-s {
+  margin-top: 40px;
+}
+
+.pad-s {
+margin-bottom: 40px;
+}
+
+.bio-padding {
+  margin-bottom: 40px;
+}
+
+.pad-m {
+margin-bottom: 120px;
+}
+
+.pad-l {
+margin-bottom: 200px;
+}
+
+.pad-xl {
+margin-bottom: 180px;
+}
+
+.fa {
+margin-right: 15px;
+}
+
+/*Home Projects --------------------------------------------------------------*/
+
+.project-box {
+ padding: 0px 20px 20px 20px;
+}
+
+.project-header {
+  padding: 20px 20px 0px 20px;
+}
+
+.box-shadow {
+ box-shadow: 0 10px 22px rgba(0,0,0,.08);
+ -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+ transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+ padding: 0px!important;
+}
+
+.box-shadow:hover {
+ box-shadow: 0px 16px 22px 2px rgba(51,51,51,0.2);
+}
+
+.hover-up {
+ top: 0px;
+ -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+ transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.hover-up:hover {
+ top: -20px;
+ -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+ transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.outer-box {
+ padding: 15px;
+}
+
+.overlay {
+opacity: 0;
+position: absolute;
+height: 100%;
+width: 100%;
+padding: 0px;
+background: rgba(255,255,255,0.95);
+ transition: opacity 0.5s;
+}
+
+.box-shadow:hover .overlay {
+ opacity: 1;
+}
+
+.vh-center {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+ font-size: 24px!important;
+}
+
+/*Projects --------------------------------------------------------------*/
+.hero {
+ width: 100%;
+ height: 300px;
+ background-size: cover;
+background-repeat:no-repeat;
+background-position: center center;
+}
+
+.research-cover {
+  background-image: url(../img/av/av_flow2.jpg);
+}
+
+.navi-cover {
+  background-image: url(../img/navi/navi_cover.jpg);
+}
+
+.as-cover {
+  background-image: url(../img/as/allscripts-laptop.png);
+}
+
+.about-cover {
+  background-image: url(../img/about/about-cover2.jpg);
+}
+
+.tldr {
+  background-color: #262626;
+}
+
+.tldr-primary {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height:25px;
+    color: #fafafa;
+}
+
+.tldr-body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height:23px;
+    color: #fafafa
+}
+
+@media only screen and (max-width: 750px) {
+ .hero{
+     height: 300px;
+ }
+}
+
+@media only screen and (max-width: 540px) {
+ .hero{
+     height: 200px;
+ }
+}
+
+.video-grid-outer {
+background-color: #E2E8F8;
+padding: 120px!important;
+}
+
+.video-grid-item-3 {
+width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+ .video-grid-outer {
+     padding: 30px;
+ }
+}
+
+.video-grid-outer video {
+-webkit-box-shadow: 0px 30px 40px -15px rgba(161,165,172,0.3);
+-moz-box-shadow: 0px 30px 40px -15px rgba(161,165,172,0.3);
+box-shadow: 0px 25px 40px -15px rgba(186 ,196 ,233 ,1);
+}
+
+
+
+/*Footer --------------------------------------------------------------*/
+.footer {
+ text-align: center;
+ padding-top: 80px;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+.footer-bg {
+ background-color: #f5f5f5;
+ height: 200px;
+}
+
+@media only screen and (max-width: 750px) {
+  .body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height:28px;
+   }
+
+   .header {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 0px;
+   }
+
+   .primary {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height:30px;
+    color: #333;
+   }
+
+   .secondary {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height:30px;
+    color: #999;
+   }
+
+   .intro-padding {
+     padding-top: 30px;
+   }
+
+   .bio-padding {
+     margin-bottom: 20px;
+   }
+
+   .prof-size {
+    width: 50%;
+    height: auto;
+  }
+
+ }
